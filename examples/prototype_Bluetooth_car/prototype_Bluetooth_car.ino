@@ -19,7 +19,7 @@ void setup(){
 
     // delay(1000);
 
-    myRobot.setTimeRun(200);    // 
+    myRobot.setTimeRun(200);    //(ms) set time run for robot, over time robot will stop
 
     myRobot.forward(255,255);
     delay(2000);

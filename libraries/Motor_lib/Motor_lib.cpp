@@ -41,21 +41,11 @@ void Motor_lib::checkStop(){
     }
 }
 
-void resetTimeRun(){
+void Motor_lib::resetTimeRun(){
     this->lastTime = millis();
 }
 
-// void left(int iSpeed){
-//     digitalWrite(this->in1, 1);
-//     digitalWrite(this->in2, 0);
-//     analogWrite(this->pwm, 255):
-// }
 
-// void right(int iSpeed){
-//     digitalWrite(this->in1, 0);
-//     digitalWrite(this->in2, 1);
-//     analogWrite(this->pwm, 255);
-// }
 
 void robot_lib::begin(Motor_lib* left_M_, Motor_lib* right_M_){
     this->motorLeft = left_M_;
